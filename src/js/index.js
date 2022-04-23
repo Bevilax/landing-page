@@ -8,6 +8,7 @@ import "../styles/index.css";
 //import your own components
 import NavBar from "./component/navbar.jsx";
 import Jumbotron from "./component/jumbotron.jsx";
+import CardsCards from "./component/cards.jsx";
 
 //render your react application
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
 			<div>
 				<NavBar />
 				<Jumbotron />
+				<CardsCards />
 			</div>
 		);
 	}
