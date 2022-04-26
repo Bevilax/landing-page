@@ -1,12 +1,28 @@
+.NavTitle {
+    margin-left: 20px;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.MenuMenu {
+    margin-left: auto;
+    margin-right: 20px;
+}
+.JumboBambo {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.JumboText {
+    padding: 25px 10px 25px 10px;
+}
+.card-group {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card1{
+    margin-left: 30px;
+    margin-right: 100px;
+}
+.card2{
+    margin-right: 100px;
+}

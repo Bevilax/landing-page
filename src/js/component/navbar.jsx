@@ -1,45 +1,54 @@
 import React from "react";
 
-export const NavBar = () => {
+const NavBar = () => {
 	return (
 		<div className="NavigationBar">
-			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-				<a className="navbar-brand" href="#">
-					ReactionaryReact
-				</a>
+			<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+				<div className="NavTitle">
+					<a className="navbar-brand text-white">ReactionaryReact</a>
+				</div>
 				<button
 					className="navbar-toggler"
 					type="button"
-					data-toggle="collapse"
-					data-target="#navbarNav"
-					aria-controls="navbarNav"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
 					aria-expanded="false"
 					aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarNav">
-					<ul className="navbar-nav">
-						<li className="nav-item active">
-							<a className="nav-link" href="#">
-								Home <span className="sr-only">(current)</span>
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								dddd
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								About
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link disabled" href="#">
-								Contact
-							</a>
-						</li>
-					</ul>
+				<div className="MenuMenu">
+					<div
+						className="collapse navbar-collapse"
+						id="navbarSupportedContent">
+						<ul className="navbar-nav">
+							<li className="nav-item">
+								<a
+									className="nav-link active text-white"
+									aria-current="page"
+									href="#">
+									Home
+								</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link text-white" href="#">
+									About
+								</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link text-white" href="#">
+									Services
+								</a>
+							</li>
+							<li className="nav-item">
+								<a
+									className="nav-link disabled text-white"
+									href="#">
+									Contact
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</nav>
 		</div>
